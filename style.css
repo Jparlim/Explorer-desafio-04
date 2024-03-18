@@ -108,6 +108,8 @@ ul {
 display: block;
 gap: 3.2rem;
 
+max-width: 38.4rem;
+height: 61.5rem;
 margin: 3.4rem 2.4rem 3.9rem 2.2rem;
 
 }
@@ -202,8 +204,4 @@ footer {
 
     align-items: center;
     justify-content: center;
-}
-
-@media (min-width: 430px){
-    body
 }
