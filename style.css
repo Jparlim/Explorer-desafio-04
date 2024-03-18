@@ -62,7 +62,7 @@ input {
 /*imagem e textos*/
 
 .cat {
-    max-width: 43.4rem;
+    max-width: 102rem;
 }
 
 .cat-img {
@@ -95,7 +95,7 @@ input {
 }
 
 p {
-    max-width: 38.2rem;
+    max-width: 38re.2m;
     font-size: 1.6rem;
     font-weight: 40rem;
     line-height: 160%;
@@ -109,7 +109,6 @@ display: block;
 gap: 3.2rem;
 
 max-width: 38.4rem;
-height: 61.5rem;
 margin: 3.4rem 2.4rem 3.9rem 2.2rem;
 
 }
@@ -128,7 +127,6 @@ li {
 
     margin-top: 3.4rem;
     width: 38.2rem;
-    height: 8.4rem;
 }
 
 li img {
@@ -153,13 +151,12 @@ li img {
 
 .txt p {
     font-family: Mulish;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-style: normal;
     font-weight: 400;
     line-height: 160%;
 
     width: 21.5rem;
-    height: 5.4rem;
 }
 
 /*tem um post que o tamanho é maior então tive que fazer uns reajustes*/
@@ -193,13 +190,15 @@ footer {
     display: flex;
     background-color: #065E7C;
 
+    margin-top: 3.9rem;
+
     color: #ffffff;
     font-family: Mulish;
     font-size: 1.6rem;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    max-width: 43rem;
+    max-width: 100%;
     height: 6.4rem;
 
     align-items: center;
