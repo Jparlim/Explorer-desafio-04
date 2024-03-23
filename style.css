@@ -1,206 +1,150 @@
 * {
-    margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    margin: 0;
 }
 
 :root {
     font-size: 62.5%;
 }
 
-.footer-top {
+header {
     display: flex;
-    background-color: #065E7C;
-    
-    width: 100%;
-    height: 7.2rem;
+    background-color: #065e7c;
+    gap: 2.5rem;
 
     align-items: center;
+    justify-content: space-between;
+
+    max-width: 100%;
+    height: 7.2rem;
 }
 
+#vector-paw {
+    background-color: white;
+    padding: 8px;
 
-.paw {
-    background-color: #ffffff;
     border-radius: 999px;
-    padding: 0.8rem;
-
-    width: 4rem;
-    height: 4rem;
 
     margin-left: 2.8rem;
-    margin-right: 2.5rem;
 }
 
-input {
-    background-color: rgba(255, 255, 255, 0.20);
+header input {
+    border: none;
+    border-radius: 4px;
+
     width: 100%;
     padding: 1.2rem 1.6rem 1.2rem 1.4rem;
 
-    border-radius: 4px;
-    border: none;
+    background-color: #1b7c9c;
 }
 
-.footer-top input::placeholder {
-    color: #ffffff;
+input::placeholder {
+    color: white;
 }
 
-.footer-top input:focus {
-    outline: none;
+input:focus {
+    border-style: none;
 }
 
 #perfil {
-    width: 4.2rem;
-    height: 4.2rem;
-
-    border-radius: 999px;
-    margin-left: 2.5rem;
     margin-right: 2.8rem;
 }
 
-/*cabeçalho*/
+/*header finalizado*/
 
-/*imagem e textos*/
-
-.cat {
-    max-width: 102rem;
+.img-cat {
+    max-width: 100%;
 }
 
-.cat-img {
-    width: 100%;
+.title {
+    margin: 3.1rem 6.6rem 0 2.6rem;
 }
 
-.titulo {
-    margin-left: 2.6rem;
+.title h1 {
+    width: 34.2rem;
+
+    font-family: "mulish", sans-serif;
 }
 
-.titulo h1 {
-    margin-top: 3.1rem;
-    font-size: 2.4rem;
-    font-family: 'mulish', sans-serif;
-}
-
-.butom-pos {
+.buttom {
+    background-color: #065e7c;
     margin-top: 0.8rem;
-    background-color: #065E7C;
-    border-radius: 999px;
+
     padding: 1.2rem;
+    border-radius: 999px;
+    margin-right: 1.2rem;
 }
 
-.butom-neg {
-    margin-left: 1.2rem;
-    margin-top: 0.8rem;
-    background-color: #065E7C;
-    border-radius: 999px;
-    padding: 1.2rem;
+/*txt*/
+
+.text {
+    max-width: 38.2rem;
+
+    margin: 3.1rem 2.6rem 3.4rem 2.2rem;
 }
 
-p {
-    max-width: 38re.2m;
+.text p {
+    font-family: "mulish", sans-serif;
     font-size: 1.6rem;
-    font-weight: 40rem;
+    font-weight: 400;
     line-height: 160%;
-    font-family: 'mulish', sans-serif;
 }
 
-/*links dos blogs (sla)*/
+/*blogs de gatos*/
 
-ul {
-display: block;
-gap: 3.2rem;
+.blogs {
+    margin: 3.4rem 2.4rem 3.9rem 2.2rem;
 
-max-width: 38.4rem;
-margin: 3.4rem 2.4rem 3.9rem 2.2rem;
-
+    max-width: 38.4rem;
 }
 
 ul h1 {
+    font-family: "mulish" sans-serif;
+    font-size: 24px;
 
-    font-family: "mulish";
-    font-size: 2.4rem;
+    margin-top: -5px;
 }
 
-/*li*/
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+
+    gap: 3.2rem;
+}
 
 li {
     display: flex;
     gap: 1.6rem;
 
-    margin-top: 3.4rem;
-    width: 38.2rem;
 }
 
-li img {
-    width: 15.1rem;
-    height: 8.4rem;
-    border-radius: 5px;
+li h1 {
+    font-family: "mulish", sans-serif;
+    font-size: 1.5rem;
 }
 
-.txt {
-    gap: 1.5rem;
+li p {
+    margin-top: 1.5rem;
+
+    font-family: "mulish", sans-serif;
+    font-size: 1rem;
 }
-
-.txt h1 {
-    margin-top: -0.9rem;
-
-    font-family: Mulish;
-    font-size: 1.8rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 160%;
-}
-
-.txt p {
-    font-family: Mulish;
-    font-size: 1.2rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 160%;
-
-    width: 21.5rem;
-}
-
-/*tem um post que o tamanho é maior então tive que fazer uns reajustes*/
-
-.cores h1 {
-    margin-top: -0.9rem;
-
-    font-family: Mulish;
-    font-size: 1.8rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 160%;
-}
-
-.cores p {
-    margin-top: -0.5rem;
-
-    font-family: Mulish;
-    font-size: 1.4rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 160%;
-
-    width: 21.7rem;
-    height: 7.6rem;
-}
-
-/*footer*/
 
 footer {
     display: flex;
-    background-color: #065E7C;
-
-    margin-top: 3.9rem;
-
-    color: #ffffff;
-    font-family: Mulish;
-    font-size: 1.6rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    max-width: 100%;
-    height: 6.4rem;
+    background-color: #065e7c;
+    color: white;
 
     align-items: center;
     justify-content: center;
+
+    width: 100%;
+    height: 6.4rem;
+
+    font-family: "Mulish", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
