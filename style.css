@@ -148,3 +148,28 @@ footer {
     font-weight: 600;
     line-height: normal;
 }
+
+@media (min-width: 700px) {
+
+    .death {
+        margin: 4.4rem 0 3.2rem 9rem;
+    }
+
+    .img-cat {
+        width: 80.3rem;
+    }
+
+    .title {
+        margin-left: -3px;
+    }
+
+    .text {
+        margin-left: -3px;
+    }
+
+    #corp {
+        display: flex;
+        gap: 3.4rem;
+    }
+
+}
