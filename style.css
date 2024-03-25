@@ -61,7 +61,7 @@ input:focus {
 }
 
 .title h1 {
-    width: 34.2rem;
+    max-width: 34.2rem;
 
     font-family: "mulish", sans-serif;
 }
